@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/background"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/background"
+       android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="300dp"
+        android:src="@drawable/image_top"
+        android:scaleType="fitXY"
+        android:paddingLeft="29dp"/>
+
+    <ImageView
+        android:layout_width="227dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bottom_notes"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="33dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Magical"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="#4B0082"
+        android:textSize="40sp"
+        android:paddingLeft="40dp"
+        android:paddingTop="50dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Brew"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="#663399"
+        android:textSize="35sp"
+        android:paddingLeft="110dp"
+        android:paddingTop="85dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="since 2019 :)"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textColor="#663399"
+        android:textSize="15sp"
+        android:paddingLeft="125dp"
+        android:paddingTop="125dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bring me coffe and I will love you forever"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#191970"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="85dp"
+        android:paddingRight="225dp"
+        android:paddingBottom="20dp"/>
+
+    <!--tag-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * escu.Serban"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="7sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ꙩ 9 Long Rd,Horwich,UK"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="160dp"
+        android:paddingRight="73dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ꚛ www.magicalbrew.com"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="150dp"
+        android:paddingRight="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✆ 03459978001"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-11dp"
+        android:layout_marginBottom="3dp"
+        android:paddingRight="120dp"
+        android:paddingBottom="138dp"/>
+
+ <Button
+     android:layout_width="96dp"
+     android:layout_height="95dp"
+     android:text="🕑Opening hours: Monday 'till Saturday 9am-4pm"
+     android:textStyle="bold"
+     android:textSize="10sp"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginRight="83dp"
+     android:layout_marginBottom="50dp"/>
+
+
+</RelativeLayout>
